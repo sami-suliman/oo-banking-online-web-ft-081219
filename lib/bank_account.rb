@@ -12,4 +12,8 @@ class BankAccount
     @balance += money
   end 
   
+  def balance
+    @balance
+  end 
+  
 end
